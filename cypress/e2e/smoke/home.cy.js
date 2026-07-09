@@ -1,6 +1,6 @@
 import HomePage from '../../pageObjects/HomePage'
 
-describe('Smoke tests', () => {
+describe('Home Page Smoke tests', () => {
   const homePage = new HomePage()
 
   context('Home', () => {

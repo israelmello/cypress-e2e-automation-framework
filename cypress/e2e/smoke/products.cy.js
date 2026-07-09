@@ -1,7 +1,7 @@
-import ProductPage from '../../pageObjects/productPage'
+import ProductPage from '../../pageObjects/ProductPage'
 import HomePage from '../../pageObjects/HomePage'
 
-describe('Smoke tests on products page', () => {
+describe('Products Page Smoke tests', () => {
   const productPage = new ProductPage()
   const homePage = new HomePage()
 
