@@ -1,7 +1,7 @@
 {
   "name": "cypress-e2e-automation-framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "End-to-end automation framework built with Cypress using Page Objects, Mochawesome reporting and Faker.",
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
@@ -12,8 +12,17 @@
     "type": "git",
     "url": "git+https://github.com/israelmello/cypress-e2e-automation-framework.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "cypress",
+    "automation",
+    "qa",
+    "testing",
+    "e2e",
+    "page-object",
+    "mochawesome",
+    "faker"
+  ],
+  "author": "Israel Mello",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
