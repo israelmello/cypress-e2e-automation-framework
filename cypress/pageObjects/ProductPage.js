@@ -11,5 +11,4 @@ class ProductPage {
     cy.visit('/')
   }
 }
-
 export default ProductPage
