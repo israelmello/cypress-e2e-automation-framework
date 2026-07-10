@@ -4,9 +4,9 @@
   "description": "End-to-end automation framework built with Cypress using Page Objects, Mochawesome reporting and Faker.",
   "main": "index.js",
   "scripts": {
-    "cy:open": "cypress open",
-    "cy:run": "cypress run",
-    "test": "npm run cy:run"
+    "cypress:smoke": "cypress run --spec \"cypress/e2e/smoke/**/*.cy.js\"",
+    "cypress:authentication": "cypress run --spec \"cypress/e2e/authentication/**/*.cy.js\"",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
