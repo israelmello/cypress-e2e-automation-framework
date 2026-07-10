@@ -1,5 +1,7 @@
 # Cypress E2E Automation Framework
 
+[![Cypress Smoke Tests](https://github.com/israelmello/cypress-e2e-automation-framework/actions/workflows/cypress.yml/badge.svg)](https://github.com/israelmello/cypress-e2e-automation-framework/actions/workflows/cypress.yml)
+
 End-to-end test automation framework built with **Cypress** using the **Page Object Model (POM)** design pattern.
 
 This project was developed as part of my QA Automation portfolio to demonstrate best practices in UI test automation, test organization, dynamic test data generation, and HTML reporting.
